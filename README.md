@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# CryptoPlace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CryptoPlace is a web application that allows users to compare cryptocurrencies, view their details, and manage a personal watchlist. The app provides real-time cryptocurrency data, including price changes, market caps, and more.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Compare Cryptocurrencies**: Select two cryptocurrencies and compare their details such as price, market cap, volume, and price change.
+- **Watchlist**: Users can add coins to their watchlist and track their performance.
+- **Interactive Charts**: View price trends of cryptocurrencies over a selected period using interactive line charts.
+- **Responsive Design**: The app is designed to be mobile-friendly, providing a seamless experience on both desktop and mobile devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**:
+  - ReactJS
+  - TailwindCSS
+  - Chart.js (for chart visualization)
+  - React-Toastify (for notifications)
+  - React-Router-Dom (for navigation)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Backend**:
+  - CoinGecko API (for fetching cryptocurrency data)
 
-### `npm test`
+## Setup and Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clone the repository
 
-### `npm run build`
+```bash
+git clone https://github.com/priyanshu0511/crypto-place.git
+cd crypto-place
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install the required dependencies using npm:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+### Start the development server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once the dependencies are installed, start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The application will be running on `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -am 'Add feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a new Pull Request.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by [Priyanshu](https://github.com/priyanshu0511).
